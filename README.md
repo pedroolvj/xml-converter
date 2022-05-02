@@ -1,9 +1,9 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
+ <img width=200px height=200px src="https://i.pinimg.com/564x/13/49/73/134973ef7d32e91aca5f9d5c4530f6c9.jpg" alt="Project logo"></a>
 </p>
 
-<h3 align="center">xml-test</h3>
+<h3 align="center">XML Editor</h3>
 
 <div align="center">
 
@@ -16,99 +16,53 @@
 
 ---
 
-<p align="center"> Few lines describing your project.
+<p align="center"> Edit JSON-XML data
     <br> 
 </p>
 
-## 📝 Table of Contents
+## 📝 About
 
-- [About](#about)
 - [Getting Started](#getting_started)
-- [Deployment](#deployment)
-- [Usage](#usage)
-- [Built Using](#built_using)
-- [TODO](../TODO.md)
-- [Contributing](../CONTRIBUTING.md)
+- [TODO](https://github.com/pedroolvj/xml-converter/issues/1)
 - [Authors](#authors)
-- [Acknowledgments](#acknowledgement)
 
-## 🧐 About <a name = "about"></a>
-
-Write about 1-2 paragraphs describing the purpose of your project.
+<br>
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
+<br>
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-What things you need to install the software and how to install them.
-
+→ run 'npm install' on the project`s root folder
 ```
-Give examples
+npm install
 ```
 
-### Installing
+→ convert the XML file on the site below and save it at 'source/$name_of_your_file'
+↳ https://www.convertjson.com/xml-to-json.htm
 
-A step by step series of examples that tell you how to get a development env running.
+→ change the value of the variable $rawData for the path of your converted file
 
-Say what the step will be
+→ adapt the code to edit what you need in the document
 
+→ change the variable $exportData to edit the name of the edited document
+
+→ run 'npm start' to create the edited JSON file on the folder 'export'
 ```
-Give the example
-```
-
-And repeat
-
-```
-until finished
+npm start
 ```
 
-End with an example of getting some data out of the system or using it for a little demo.
+→ convert the JSON file on the site below to get your edited document
+↳ https://www.convertjson.com/json-to-xml.htm
 
-## 🔧 Running the tests <a name = "tests"></a>
-
-Explain how to run the automated tests for this system.
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## 🎈 Usage <a name="usage"></a>
-
-Add notes about how to use the system.
-
-## 🚀 Deployment <a name = "deployment"></a>
-
-Add additional notes about how to deploy this on a live system.
+<br>
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
-- [MongoDB](https://www.mongodb.com/) - Database
-- [Express](https://expressjs.com/) - Server Framework
-- [VueJs](https://vuejs.org/) - Web Framework
 - [NodeJs](https://nodejs.org/en/) - Server Environment
+
+<br>
 
 ## ✍️ Authors <a name = "authors"></a>
 
-- [@kylelobo](https://github.com/kylelobo) - Idea & Initial work
+- [@pedroolvj](https://github.com/pedroolvj) - Idea & Initial work
+- [@menezes_ac](https://twitter.com/menezes_ac) - Idea & Initial work
 
-See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
-
-## 🎉 Acknowledgements <a name = "acknowledgement"></a>
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- References
