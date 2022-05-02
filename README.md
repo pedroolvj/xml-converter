@@ -37,6 +37,7 @@ npm install
 ```
 
 → convert the XML file on the site below and save it at 'source/$name_of_your_file'
+<br>
 ↳ https://www.convertjson.com/xml-to-json.htm
 
 → change the value of the variable $rawData for the path of your converted file
@@ -51,6 +52,7 @@ npm start
 ```
 
 → convert the JSON file on the site below to get your edited document
+<br>
 ↳ https://www.convertjson.com/json-to-xml.htm
 
 <br>
