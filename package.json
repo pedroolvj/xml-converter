@@ -1,0 +1,23 @@
+{
+  "name": "xml-test",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">\r   <a href=\"\" rel=\"noopener\">\r  <img width=200px height=200px src=\"https://i.imgur.com/6wj0hh6.jpg\" alt=\"Project logo\"></a>\r </p>",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.1-security"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedroolvj/xml-converter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pedroolvj/xml-converter/issues"
+  },
+  "homepage": "https://github.com/pedroolvj/xml-converter#readme"
+}
